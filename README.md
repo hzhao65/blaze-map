@@ -2,6 +2,9 @@
 
 BlazeMap is an interactive web application designed to simulate and predict the spread of fire in real time. Leveraging real-world weather and topographic data from multiple APIs, BlazeMap allows users to visualize how a fire might progress across a given landscape. Simply click on the map to set the fire's starting point, and watch the simulation play out with multiple scenario overlays.
 
+**Video Demo**: https://app.screencastify.com/v3/watch/p0xSBAnj268b1Wjohy1a
+**Website Demo**: https://hzhao65.github.io/blaze-map/
+
 ## ✨ Features
 
 - **Interactive Fire Simulation:**  
