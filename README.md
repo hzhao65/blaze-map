@@ -2,7 +2,7 @@
 
 BlazeMap is an interactive web application designed to simulate and predict the spread of fire in real time. Leveraging real-world weather and topographic data from multiple APIs, BlazeMap allows users to visualize how a fire might progress across a given landscape. Simply click on the map to set the fire's starting point, and watch the simulation play out with multiple scenario overlays.
 
-## Features
+## ✨ Features
 
 - **Interactive Fire Simulation:**  
   Click on the map to set the fire's starting point and watch the fire spread in real time.
@@ -26,7 +26,7 @@ BlazeMap is an interactive web application designed to simulate and predict the 
 - **Responsive Design:**  
   BlazeMap is built to work across desktop and mobile devices.
 
-## Mathematical Model
+## 📊 Mathematical Model
 
 BlazeMap uses a simplified mathematical model based on **Rothermel’s equations**—a set of models widely employed by fire and forest management systems (including those developed by the US Forest Service Research and Development). The key aspects include:
 
@@ -41,6 +41,8 @@ BlazeMap uses a simplified mathematical model based on **Rothermel’s equations
 
 This approach provides a balance between computational simplicity and visual realism, enabling real-time simulation without the full complexity of advanced fire behavior models.
 
+## 🛠️ Technologies Used
+
  **Leaflet:** For interactive mapping and visualization.
 - **JavaScript (ES6+):** Utilizes modern features such as arrow functions, Promises, and template literals.
 - **HTML & CSS:** For the structure and styling of the web application.
@@ -52,7 +54,7 @@ This approach provides a balance between computational simplicity and visual rea
 - **CORS Proxy (Thingproxy):** Used to bypass cross-origin restrictions for APIs that do not support CORS.
 - **Native DOM and Event APIs:** For interacting with and updating the user interface.
 
-## Usage
+## 💪 Usage
 
 1. **Set the Fire Starting Point:**  
    Click on the map to set the fire’s starting point and begin the simulation.
@@ -72,7 +74,7 @@ This approach provides a balance between computational simplicity and visual rea
 6. **Nearby Resources:**  
    The map marks nearby firefighting resources, such as fire stations and hydrants, to enhance situational awareness.
 
-## How It Works
+## 🤔 How It Works
 
 BlazeMap calculates the effective fire spread rate using a simplified model based on Rothermel’s equations—widely used by fire management systems. This model integrates real-world environmental data (weather and terrain) to adjust a base spread rate through multiplicative factors. Although the underlying simulation uses real-world units, the drawn fire front is scaled by a visual factor (the `displayScaleFactor`) to ensure it appears prominently on the map.
 
